@@ -1,7 +1,12 @@
- 
-# Compiled class file
-ImageASCII.class
-ImageASCIITest.class
+ # Compiled class file
+*.class
+
+ImageASCII.java
+ImageASCIITest.java
+
+*.iml
+*.xml
+.idea/*
 
 # Log file
 *.log
