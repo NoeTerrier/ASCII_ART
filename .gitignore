@@ -6,7 +6,9 @@ ImageASCIITest.java
 
 *.iml
 *.xml
+*.MF
 .idea/*
+production
 
 # Log file
 *.log
