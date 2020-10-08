@@ -1,0 +1,101 @@
+/*buttons*/
+.open-export-button {
+    -fx-background-color: inherit;
+    -fx-border-color: white;
+    -fx-text-fill: white;
+    -fx-border-radius: 15px;
+}
+.open-export-button:hover {
+    -fx-background-color: white;
+    -fx-text-fill: inherit;
+    -fx-background-radius: 15px;
+}
+
+.label {
+    -fx-text-fill: grey;
+    -fx-spacing: inherit;
+    -fx-alignment: baseline-left;
+}
+
+.split-pane{
+    -fx-background-color: #252525;
+}
+
+.stackPane{
+    -fx-alignment: top-center;
+    -fx-min-width: 10px;
+}
+
+.HBox {
+    -fx-spacing: inherit;
+    -fx-alignment: baseline-left;
+    -fx-background-color: inherit;
+}
+
+/*switch color button*/
+.switch-button {
+    -fx-min-width: 30;
+    -fx-min-height: 30;
+}
+.switch-button:hover {
+    -fx-border-color: lightblue;
+    -fx-border-radius: 2px;
+}
+.white-switch-button {
+    -fx-background-color: white;
+    -fx-text-fill: #252525;
+}
+.black-switch-button {
+    -fx-background-color: inherit;
+    -fx-text-fill: grey;
+}
+
+/*control bar*/
+.control-bar {
+    -fx-spacing: 4;
+    -fx-padding: 4;
+    -fx-alignment: center;
+    -fx-background-color: #252525;
+}
+.control-bar .text-field {
+    -fx-pref-width: 60;
+    -fx-background-color: inherit;
+    -fx-highlight-text-fill: white;
+    -fx-text-fill: white;
+    -fx-border-color: grey;
+    -fx-border-radius: 50%;
+    -fx-highlight-fill: lightblue;
+}
+
+/*choice box*/
+.choice-box {
+    -fx-background-color: inherit;
+    -fx-border-width: 0 0 2px;
+    -fx-border-color: white;
+    -fx-mark-color: lightblue;
+}
+.choice-box .label {
+    -fx-text-fill: white;
+}
+.choice-box .context-menu {
+    -fx-background-color: white;
+}
+.choice-box .menu-item > .label {
+    -fx-text-fill: black;
+}
+.choice-box .menu-item:focused {
+    -fx-background-color: lightblue;
+}
+
+/*color picker*/
+.color-picker {
+    -fx-background-color: inherit;
+    -fx-border-width: 0 0 2px;
+    -fx-border-color: white;
+    -fx-max-width: 115px;
+    -fx-mark-color: lightblue;
+    -fx-text-fill: grey;
+}
+
+
+
